@@ -5,15 +5,6 @@ using UnityEngine;
 
 namespace catgocri.AlchemistsBestFriend.PotionCraft
 {  
-    // Reflection function is from RoboPhred https://github.com/RoboPhred
-    public static class Reflection
-    {
-        public static void SetPrivateField<T>(object instance, string fieldName, T value)
-        {
-            var prop = instance.GetType().GetField(fieldName, System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-            prop.SetValue(instance, value);
-        }
-    }   
 
     [BepInPlugin("net.catgocri.PotionCraft.AlchemistsBestFriend", "Alchemists Best Friend PotionCraft", "1.0")]
     public class AlchemistsBestFriendPlugin : BaseUnityPlugin
