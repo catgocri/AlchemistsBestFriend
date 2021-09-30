@@ -3,7 +3,7 @@ Love doing challenges in Potion Craft? Hate waiting for ingredients to grow or f
 ### Keybinds
 - Pressing `Alpha 1` on your keyboard will give you `1000` of each ingredient.
 - Pressing `Alpha 2` on your keyboard will give you `1000` of each salt. (NOTE: THIS DOES INCLUDE THE `UNRELEASED SALTS`.)
-- Pressing `Alpha 3` on your keyboard will clear your inventory and give you `1` of each ingredient, incase you want to do a no duplicate ingredient challenge.
+- Pressing `Alpha 3` on your keyboard will clear your inventory and give you `1` of each ingredient, in case you want to do a no duplicate ingredient challenge.
 - Pressing `Alpha 0` on your keyboard will clear your inventory.
 ## Installation
 This mod uses BepInEx 5! BepInEx is a mod loader, basically it is what puts the edited code into the game.
